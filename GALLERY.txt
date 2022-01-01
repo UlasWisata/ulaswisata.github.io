@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #FFEBCD;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background:#FFF5EE;
+}
+
+.header h1 {
+  font-size: 60px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #FFD700;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 100%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+   <font color= "#B22222">
+  <img src="logo.png" alt="logo" width="200"
+<p></p>
+<h1>ULAS WISATA</h1>
+  <p>Ulas Wisata akan membahas objek-objek wisata di Indonesia yang menarik, memanjakan mata, dan selalu membuat terkagum. Di kesempatan pertama ini, Ulas Wisata akan memberikan informasi tentang Objek Wisata Candi Borobudur sebagai salah satu keajaiban dunia.</p>
+
+</div>
+
+<div class="topnav">
+<a href="HOME.html">HOME</a>
+    <a href="OUR TEAM.html">OUR TEAM</a>
+      <a href="GALLERY.html">GALLERY</a>
+        <a href="CONTACT US.html" style="float:right">CONTACT US</a>
+        </div>
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+    <font color= "#CD853F">
+      <h2>Daya Tarik & Ulasan Wisata Candi Borobudur</h2>
+      <h5>Candi Borobudur Jogja ini sekarang menjadi salah satu tujuan wisata favorit di Jawa tengah. Candi ini bukan hanya sebagai tempat wisata saja, tetapi peninggalan bersejarah ini juga di gunakan kembali menjadi tempat keagamaan dan ziarah agama Budha di Indonesia. Struktur bangunan Borobudur dibangun dengan menggunakan gaya mandala. Selain itu juga melambangkan konsep alam semesta dalam kepercayaan budha. Candi Borobudur Yogyakarta ini berbentuk kotak dan memiliki 4 pintu masuk dengan pusat candi yang berbentuk lingkaran.</h5>
+<h5> Ada 3 zona di candi Borobudur:
+Kamadhatu, berupa 160 relief dinding dengan penjelasan Karmawibhangga Sutra (hukum sebab-akibat). Melambangkan alam dunia, Rupadhatu terdiri dari ukiran relief dan patung Buddha. Ada kurang lebih 328 patung buddha dengan hiasan relief disini. Melambnagkan alam peralihan, alam dimana manusia terbebas dari urusan dunia, dan Arupadhatu, zona ini adalah zona lingkaran di pusat candi, berupa tiga serambii yang mengarah ke kubah di bagian tengah. Area ini tidak ada hiasan relief, menandakan kemurnian tertinggi.</h5>
+
+      <div class></div>
+            <font color= "#CD853F">
+	<img src="kegiatan.png" alt="kegiatan" width="800"
+      <p> </p>
+      <h3>HARGA TIKET</h3>
+      <table border="1" width="60%" cellpadding="5">
+      	<tr>
+        <th>Keterangan</th>
+     	<th>Harga Tiket Masuk Candi Borobudur</th>
+        <th>Paket Taman Wisata Candi Borobudur Pawon, dan Mendut</th>
+    	 </tr>
+     	<tr>
+     		<th>Usia >10thn</th>
+        	<td>Rp. 40.000</td>
+            <td>Rp. 60.000</td>
+        	
+     	</tr>
+        <tr>
+     		<th>Usia 3-10thn</th>
+        	<td>Rp. 20.000</td>
+            <td>Rp. 30.000</td>
+     	</tr>
+   	</table>
+       <h4>Aktivitas yang dapat dilakukan di Candi Borobudur:</h4>
+       </font>
+<ul type="disc">
+<li>Festival 1000 Lampion di akhir tahun</li>
+<li>Fotografi berbagai sisi di candi</li>
+<li>Belajar sejarah di Museum Karmawibhangga</li>
+<li>Berburu souvenir seperti topi, tas, kaos, gantungan kunci, dan miniatur candi</li>
+<li>Safari Gajah dan melihat atraksinya, ada berbagai paket yang ditawarkan, dengan berbagai pilihan durasi waktu dan area yang dikunjungi. Harga di mulai dari Rp 250.000,00- per orang. Jika hanya menunggang gajah untuk berfoto, atau memberi makan gajah dan untuk menunggangi gajah tiketnya mulai dari Rp 50.000,00 – per 10 menit</li>
+<li>Menikmati Sunrise dan Sunset</li>
+</ul>
+<h5>Jam buka: 06.00 – 17.00 WIB</h5>
+<h4>Akses Menuju Candi Borobudur</h4>
+<h5>Jika menggunakan kendaraan umum, untuk dapat mencapai lokasi Candi Borobudur yogyakarta dengan kendaraan umum, harus menuju ke terminal bis Jombor, dari sana bisa naik langsung bis jurusan borobudur.</h5>
+<h5>Jika dari bandara Adisucipto, bisa langsung menggunakan bis DAMRI langsung tanpa harus ke terminal Jombor terlebih dulu.</h5>
+<h5>Jika dari Yogyakarta, bisa menggunakan rute jalan yogya – terminal Jombor – Magelang – pertigaan palbapang – belok kiri ke arah Borobudur. Jika masih bingung bisa menggunakan Aplikasi Google Maps agar lebih mudah.</h5>
+    </div>
+</div>
+</div>
+</div>
+<div class="footer">
+<font color= "#663399">
+  <p>Author: Kelompok 11<br>
+  <a href="mailto:ulaswisata@gmail.com">ulaswisata@gmail.com</a></p>
+  <a href="https://instagram.com/"><img src="IG.png" width="50" height="50"></a>
+  <a href="https://tiktok.com/"><img src="tiktok.png" width="50" height="50"></a>
+  <a href="https://facebook.com"><img src="facebook.png" width="50" height="50"></a>
+</div>
+
+</body>
+</html>

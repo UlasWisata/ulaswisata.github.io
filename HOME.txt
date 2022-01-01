@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <style>
+       * {
+           box-sizing: border-box;
+       }
+      
+       body {
+           font-family: Arial;
+           padding: 10px;
+           background: #FFEBCD;
+       }
+       /* Header/Blog Title */
+      
+       .header {
+           padding: 30px;
+           text-align: center;
+           background: #FFF5EE;
+       }
+      
+       .header h1 {
+           font-size: 60px;
+       }
+       /* Style the top navigation bar */
+      
+       .topnav {
+           overflow: hidden;
+           background-color: #333;
+       }
+       /* Style the topnav links */
+      
+       .topnav a {
+           float: left;
+           display: block;
+           color: #FFD700;
+           text-align: center;
+           padding: 14px 16px;
+           text-decoration: none;
+       }
+       /* Change color on hover */
+      
+       .topnav a:hover {
+           background-color: #ddd;
+           color: black;
+       }
+       /* Create two unequal columns that floats next to each other */
+       /* Left column */
+      
+       .leftcolumn {
+           float: left;
+           width: 100%;
+       }
+       /* Right column */
+      
+       .rightcolumn {
+           float: left;
+           width: 25%;
+           background-color: #f1f1f1;
+           padding-left: 20px;
+       }
+       /* Fake image */
+      
+       .fakeimg {
+           background-color: #aaa;
+           width: 100%;
+           padding: 20px;
+       }
+       /* Add a card effect for articles */
+      
+       .card {
+           background-color: #F5F5DC;
+           padding: 20px;
+           margin-top: 20px;
+       }
+       /* Clear floats after the columns */
+      
+       .row:after {
+           content: "";
+           display: table;
+           clear: both;
+       }
+       /* Footer */
+      
+       .footer {
+           padding: 20px;
+           text-align: center;
+           background: #ddd;
+           margin-top: 20px;
+       }
+       /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+      
+       @media screen and (max-width: 800px) {
+           .leftcolumn,
+           .rightcolumn {
+               width: 100%;
+               padding: 0;
+           }
+       }
+       /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+      
+       @media screen and (max-width: 400px) {
+           .topnav a {
+               float: none;
+               width: 100%;
+           }
+       }
+   </style>
+</head>
+
+<body>
+
+   <div class="header">
+       <font color="#B22222">
+           <img src="logo.png" alt="logo" width="200" <p></p>
+           <h1>ULAS WISATA</h1>
+           <p>Ulas Wisata akan membahas objek-objek wisata di Indonesia yang menarik, memanjakan mata, dan selalu membuat terkagum. Di kesempatan pertama ini, Ulas Wisata akan memberikan informasi tentang Objek Wisata Candi Borobudur sebagai salah satu
+               keajaiban dunia.</p>
+
+   </div>
+
+   <div class="topnav">
+       <a href="HOME.html">HOME</a>
+       <a href="OUR TEAM.html">OUR TEAM</a>
+       <a href="GALLERY.html">GALLERY</a>
+       <a href="CONTACT US.html" style="float:right">CONTACT US</a>
+   </div>
+   <div class="row">
+       <div class="leftcolumn">
+           <div class="card">
+               <font color="#CD853F">
+                   <h2>Sejarah Candi Borobudur</h2>
+                   <p align="justify"> Seperti yang dilansir dalam jurnal Pesona Candi Borobudur Sebagai Wisata Budaya Di Jawa Tengah karya Reza Ayu Dewanti, candi Borobudur merupakan peninggalan dinasti Syailendra. Candi ini didirikan oleh penganut agama Buddha Mahayana.
+                       Bangunan ini dibentuk sekitar abad ke-8 pada masa pemerintahan wangsa Syailendra. Candi Borobudur termasuk kuil Buddha terbesar di dunia. Tujuan dibangun Candi Borobudur untuk memuliakan raja-raja Syailendra (775-850 M) yang telah
+                       bersatu kembali dengan dewa yang menjadi asal beliau. Candi dibangun sebagai ungkapan nyata dan rasa hormat mendalam pada leluhur. Selain itu, bangunan candi dipakai sebagai kesadaran terhadap kebesaran agama. Candi Borobudur terletak
+                       di desa Borobudur, Kecamatan Borobudur, Kabupaten Magelang, Jawa Tengah. Candi Borobudur juga masuk daftar tujuh keajaiban dunia. Candi umat Buddha ini dikelilingi taman luas dan berada di tengah gunung-gunung yang menjulang tinggi.
+                       bangunan candi dibangun pada abad ke-8 Masehi. Candi ini mulai diresmikan menjadi tempat wisata pada 15 Juli 1980. Kemudian, candi Borobudur ditetapkan sebagai Pusaka Budaya Dunia oleh UNESCO pada 1990.</p>
+
+                   <h2> Ilustrasi Candi Borobudur</h2>
+                   <Video width="700" controls>
+ <source src="sejarah borobudur.mp4" description="Ilustrasi Sejarah Candi Borobudur"  type="video/mp4">
+</Video>
+                   <ul type="disc">
+                       <h2>Candi Borobudur dibangun dalam 5 Tahapan :</h2>
+                       <p align="justify"> 1. Tahap pertama (780 Masehi) : Pembangunan awal dilakukan di atas bukit. Bagian bukit diratakan dan pelataran diperluas. Tidak semua bahan pembuat candi dari batu andesit. Proses pembangunan bukit memakai tanah yang dipadatkan
+                           dan ditutup struktur batu. Struktur batu ini menyerupai cangkang dan membungkus bukit tanah. Sementara itu sisa bagian bukit ditutup struktur batu lapis demi lapis. Awal pembangunan candi disusun bertingkat seperti piramida
+                           berundak.
+                       </p>
+                       <p align="justify"> 2. Tahap kedua dan ketiga (792 Masehi) : Terdapat penambahan dua undakan berbentuk persegi. Bagian pagar langkan dan satu undak melingkar di atasnya. Bagian undak memiliki stupa tunggal yang besar. Bagian ketiga terjadi perubahan
+                           rancangan bangunan. Bagian undak atas lingkaran dengan stupa tunggal induk dibongkar. Stupa diganti tiga undak lingkaran, sementara stupa-stupa kecil dibangun berbaris melingkar pada pelataran undak-undak. Stupa besar berada
+                           di bagian tengah. Para arkeolog menduga, awalnya Borobudur dirancang berupa stupa tunggal yang sangat besar. Sehingga stupa itu seperti mahkota yang berada di tengah. Tetapi stupa besar itu terlalu berat, sehingga mendorong
+                           struktur bangunan. Stupa yang terlalu besar ini dapat menggeser bangunan. Inti Borobudur hanyalah bukit tanah, sehingga tekanan bagian atas dapat menyebar ke bawah sehingga Borobudur terancam longsor dan runtuh. Akhirnya stupa
+                           induk diganti dengan teras-teras melingkar yang dihiasi stupa kecil. Stupa induk hanya satu yang berfungsi menopang dinding candi dan mencegah pergeseran.</p>
+                       <p align="justify"> 3. Tahap Keempat (824 Masehi) dan kelima 833 Masehi : Bangunan candi mengalami perubahan kecil, seperti penambahan pagar langkan terluar, penyempurnaan relief, perubahan tangga, pelebaran ujung kaki, dan pelengkung atas gawang
+                           pintu. Candi Borobudur melambangkan alam semesta. Dalam agama Buddha, semesta dibagi menjadi tiga tingkat yaitu kamadhatu(dunia keinginan), rupadhatu (dunia berbentuk) dan arupadhatu (dunia tak terbentuk). Ketiga tingkat ini
+                           dibedakan berdasarkan relief-relief candi. Relief ini dibentangkan sepanjang 3 meter. Terdapat 1.460 pigura yang diselingi bidang-bidang pemisah berjumlah sekitar 1.212 buah. Di atas deretan pigura terdapat semacam pelipit
+                           yang membujur, memanjang sejauh satu setengah kilometer. Pelipit ini dihias dan membentuk rangkaian bunga teratai. Di bagian tas terdapat hiasan simbar berbentuk segitiga berjumlah 1.476 buah. Tingkat kamadhatu dan rupadhatu
+                           terdapat 1.472 stupa dan 432 arca Buddha yang mengitari seluruh penjuru mata angin. Pada tingkat terakhir terdapat 72 buah stupa yang melingkari stupa induk di puncak. Dibutuhkan sekitar dua juta potongan batu untuk membangun
+                           monumen ini.Candi Borobudur secara keseluruhan terdiri dari stupa. Stupa adalah salah satu bangunan tanda peringatan agama Buddha. Dalam bahasa Sansekerta, stupa berarti gundukan atau timbunan tanah. Candi ini berada di Borobudur
+                           berada di daerah dataran Kedu yang dikelilingi oleh gunung Merapi dan Merbabu di sebelah Timur, Gunung Sindoro dan Sumbing di sebelah utara, dan pegunungan Menoreh di sebelah Selatan.
+                       </p>
+                       <h2> Keadaan Candi Borobudur Saat Pandemi </h2>
+                       <p align="justify">Situasi Candi Borobudur telah berbeda untuk saat ini, dikarenakan adanya pandemi Covid-19, dapat dikatakan momentum, yang langka karena jarang sekali melihat keadaan candi borobudur yang tanpa ramai pengunjung. kebijakan telah
+                           ditentukan mulai dari datang keloket wajib cek suhu tubuh dan wajib cuci tangan sebelum masuk kedalam zona are acandi borobudur. perbedaan yang sangat signifikan sebelum pandemil bebasnya dapat naik ke candi namun berbeda ketika
+                           pandemi saat ini, pengunjung dilarang  untuk naik ke puncak candi melainkan hanya di perbolehkan di pelatarannya saja, tidak sampai disitu saja. candi borobudur ini siap menerima pengunjung dengan kebijakan protokol kesehatan
+                           yang ketat yang telah ditetapkan, diuji, dan juga telah dilaksanakan. </p>
+
+                       <Video width="700" controls>
+                               <source src="editcandi.mp4" description="keadaan candi borobudur saat pandemi"  type="video/mp4">
+                             </Video>
+                   </ul> 
+    </div>
+</div>
+</div>
+</div>
+                   <div class="footer">
+                       <font color="#663399">
+                           <p>Author: Kelompok 11<br>
+                               <a href="mailto:ulaswisata@gmail.com">ulaswisata@gmail.com</a></p>
+                           <a href="https://instagram.com/"><img src="IG.png" width="50" height="50"></a>
+                           <a href="https://tiktok.com/"><img src="tiktok.png" width="50" height="50"></a>
+                           <a href="https://facebook.com"><img src="facebook.png" width="50" height="50"></a>
+                   </div>
+
+</body>
+
+</html>
